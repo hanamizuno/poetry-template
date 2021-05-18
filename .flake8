@@ -1,0 +1,15 @@
+[flake8]
+max-line-length = 79
+exclude = .git/*, .venv/*
+
+# docstrings
+docstring-convention = google
+
+# quotes
+inline-quotes = "
+
+# ignore
+ignore =
+  W503,
+  # docstrings
+  D103, D105, D107, D415
