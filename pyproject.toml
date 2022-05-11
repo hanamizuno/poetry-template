@@ -32,6 +32,9 @@ flake8 = "flake8 ."
 isort = "isort . -c"
 mypy = "mypy ."
 lint = ["flake8", "isort", "mypy"]
+black = "black ."
+isort_format = "isort ."
+format = ["black", "isort_format"]
 test = "pytest"
 cov = "pytest --cov=src --cov-report=html --cov-report=term"
 
